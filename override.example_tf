@@ -1,0 +1,4 @@
+provider "openstack" {
+  user_name   = "email@email.com"
+  password    = "32characterkey"
+}
