@@ -1,13 +1,14 @@
 ## Terraform Compute Example on BinaryLane
-Installs docker etc
+Installs docker
 
 ## How to use. 
-- rename `override.example_tf` to `override.tf`
+- Create a file and name it `terraform.tfvars`.
 - Insert UserID/Email and the 32character api key. 
-- run `terraform init` - Sets up openstack.
-- run `terraform apply` Creates the compute 
+    - e.g `binarylane_email = "email@email.com"`
+- Run `terraform init` - Sets up openstack.
+- Run `terraform apply` Creates the compute resource.
 
 ## Pre-req. 
-- terraform. 0.12
-- binarylane acc.
-- basic understanding of your openstack provider 
+- Terraform 0.12
+- Binarylane acc.
+- Basic understanding of your openstack provider 
